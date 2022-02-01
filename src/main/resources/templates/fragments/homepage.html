@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:fragment="homepage-buttons">
+    <div class="home-btn-container">
+        <a class="btn btn-secondary random-films-btn btn-lg" th:href="@{/random}" role="button">Find random films</a>
+        <a class="btn btn-secondary search-films-btn btn-lg" th:href="@{/film-search}" role="button">Or search our catalogue</a>
+    </div>
+</div>
+<div th:fragment="homepage-checkout">
+    <div class="home-checkout-container">
+        <div class="selected hidden-div" hidden>
+            <a class="btn btn-secondary checkout-btn film-reservation-btn" th:href="@{/login}" role="button">Go to checkout</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

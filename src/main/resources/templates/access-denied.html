@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PressPlayVideo - Access Denied</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link th:href="@{/css/style.css}" rel="stylesheet"/>
+</head>
+<body>
+
+<div th:insert="fragments/header :: big-branding-no-account"></div>
+
+<div class="centering-container fullscreen-message-container">
+    <div class="spacer-div"></div>
+    <div class="error-message ">
+        Unfortunately, we couldn't find a user with that combination of username and password. Please try again
+    </div>
+    <div class="spacer-div"></div>
+    <div class="spacer-div"></div>
+</div>
+
+<div th:insert="fragments/bottom-back-btn"></div>
+<div th:insert="fragments/footer"></div>
+
+</body>
+</html>

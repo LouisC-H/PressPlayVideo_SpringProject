@@ -1,0 +1,321 @@
+body{
+    background-color: #f7be4d;
+}
+
+.btn-secondary {
+    background-color: #7882c0 !important;
+    border-color: #7882c0 !important;
+}
+
+.big-branding{
+    background-image: url("../images/tastefulLogoAttempt3.png");
+    height: 25vh;
+    background-size: contain;
+}
+
+.small-branding{
+    background-image: url("../images/tastefulLogoAttempt3.png");
+    height: 15vh;
+    background-size: contain;
+}
+
+.header-btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-btn-container a{
+    margin: 15px;
+    font-weight: bold;
+    width: 100px;
+}
+
+.home-btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.home-btn-container a{
+    font-size: xxx-large;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+@media (max-width: 1000px) {
+    .home-btn-container a{
+        font-size: xx-large;
+    }
+}
+
+.home-checkout-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.films-list{
+    min-height: 53vh;
+}
+
+.film-info{
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    margin: 2vh 2vw;
+    border: 3px solid #a6a8ac;
+}
+
+.selected{
+    border: 15px solid #e10a12;
+    height: 124px;
+}
+
+.film-info div,
+.film-info button{
+    padding: 5px;
+    font-size: x-large;
+}
+
+.film-title{
+    font-weight: bold;
+    flex: 1 0 150px;
+    text-align: center;
+    background-color: #f03041;
+}
+
+.film-description{
+    flex: 4 4 400px;
+    overflow: auto;
+    border-left: 3px solid #a6a8ac;
+    border-right: 3px solid #a6a8ac;
+    background-color: #78acdc;
+    text-align: center
+}
+
+.film-reservation-btn{
+    font-weight: bold;
+    flex: 0 0 200px;
+    text-align: center
+}
+
+.selected .film-reservation-btn{
+    flex: 0 0 190px;
+}
+
+.checkout-btn{
+    height: 100px;
+    font-size: xxx-large;
+    margin-bottom: 5vh;
+}
+
+.search-vertical-spacer{
+    height: 3vh;
+}
+
+.search-form-outer{
+    display: flex;
+    flex-direction: column;
+    height: 69vh;
+}
+
+.search-form{
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    margin: 3vh 2vw;
+    border: 3px solid #a6a8ac;
+    font-size: xx-large;
+}
+
+.form-label{
+    font-weight: bold;
+    flex: 1 0 235px;
+    text-align: center;
+    background-color: #f03041;
+    height: 100%;
+}
+
+.form-label-short{
+    font-weight: bold;
+    flex: 2 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f03041;
+    height: 100%;
+}
+
+.form-text-input{
+    flex: 5 0 200px;
+    display: flex;
+    align-items: center;
+    border-left: 3px solid #a6a8ac;
+    background-color: #78acdc;
+}
+
+.right-silver-border{
+    border-right: 3px solid #a6a8ac;
+}
+
+.title-input-field{
+    flex: 3 0 194px;
+    height: 50%;
+    font-size: x-large;
+}
+
+.form-select-inline{
+    height: 50%;
+    text-align: center;
+    font-size: x-large;
+}
+
+.form-select{
+    text-align: center;
+    font-size: x-large;
+}
+
+.genre-select-btn{
+    flex: 3 0 194px;
+}
+
+.spacer-div{
+    flex: 1 0 0;
+}
+
+.form-submit-btn{
+    flex: 1 0 50px;
+    text-align: center;
+    font-size: inherit;
+}
+
+.form-submit-btn-inline{
+    flex: 0 0 100px;
+    text-align: center;
+    font-size: inherit;
+}
+
+.login-account-outer{
+    display: flex;
+    flex-direction: row;
+    height: 72vh;
+}
+
+.login-LHS-container{
+    display: flex;
+    flex-direction: column;
+    width: 48vw;
+}
+
+.login-RHS-container{
+    width: 48vw;
+    padding: 1vw;
+    border-left: 2vw solid #a6a8ac;
+}
+
+.login-top-left-container{
+    flex: 2 0 0;
+    padding: 1vw;
+}
+
+.login-bottom-left-container{
+    flex: 1 0 0;
+    border-top: 2vw solid #a6a8ac;
+    padding: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    align-items: center;}
+
+.vertical-form-login{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: xx-large;
+}
+
+.vertical-form-create-account{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: xx-large;
+}
+
+.vertical-form-grouping{
+    flex: 1 0 50px;
+    height: 14vh;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid #a6a8ac;
+}
+
+.account-office-select{
+    flex: 1 0 50px;
+    border-right: 3px solid #a6a8ac;
+}
+
+.login-account-clarification{
+    flex: 8 0 100px;
+    font-size: xx-large;
+    min-height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centering-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.fullscreen-message-container{
+    min-height: 62vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.btm-back-btn{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.error-message{
+    flex: 1 0 100px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.paragraph{
+    flex: 1 0 100px;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.paragraph-spacer{
+    width: 50px;
+}
+
+.indented-paragraph{
+    width: calc(100% - 50px);
+}
+
+.footer{
+    margin-left: 1vw;
+}
